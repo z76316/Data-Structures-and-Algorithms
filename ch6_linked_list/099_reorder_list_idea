@@ -1,0 +1,4 @@
+1. find middle node, split list into two parts
+2. reverse the right part
+3. let the tail of reverse part point toward null
+4. merge, be careful for the last node of one of two lists

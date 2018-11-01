@@ -1,0 +1,6 @@
+1. Integer.MIN_VALUE
+2. because we need R2A(root-to-any point) to judge A2A(any-to-any), build a class ResultType to store two variables.
+3. as you guess, build a helper to use ResultType.
+4. deal with R2A first, then use it to find A2A.
+5. R2A : find the bigger one between left.r2a + root.val and right.r2a + root.val. then let it at least even to 0.
+6. A2A : don't forget to compare left.a2a with right.a2a first. 

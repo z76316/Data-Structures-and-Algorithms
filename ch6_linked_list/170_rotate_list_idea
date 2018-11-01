@@ -1,0 +1,4 @@
+1. to get the length of the list, create a getListLength method.
+2. check k = k % len first.
+3. using fast-slow pointers to get the prev node of rotate list's first node and the last node of  original list.
+4. finall step, assembling the head and tail parts correctly.

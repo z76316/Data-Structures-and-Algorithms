@@ -1,0 +1,6 @@
+1. Merge Sort:
+	1. 	create findMid to find mid(must be skilled with findMid)
+	2. 	let rightHead = mid.next
+	3. 	let mid.next = null
+	4. 	divide conquer
+	5. 	merge(also must be skilled with merge)

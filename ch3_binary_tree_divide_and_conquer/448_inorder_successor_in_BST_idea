@@ -1,0 +1,4 @@
+1. Using non-recursion way to solve this one is easy, memorize it.
+2. Both non-recursion and recursion use the same thought. There are two cases:
+	1. root.val > p.val: root can be possible successor -> check is there any node bigger than p.val, or the root is the successor.
+	2. root.val <= p.val: root cannot be successor -> move to right node.

@@ -1,0 +1,1 @@
+1. Remember to check if s1.length() + s2.length() == s3.length() first, it can avoid the runtime error IndexOutOfBoundsException.

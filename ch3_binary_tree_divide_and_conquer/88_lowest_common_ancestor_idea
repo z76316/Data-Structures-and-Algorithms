@@ -1,0 +1,8 @@
+1. build a class ResultType to store 2 variables.
+2. then build a helper to use  it.
+3. root == null, return false & null.
+4. root == A or B, return it.
+5. divide. 
+6. if root.left part and root.right part both have one of 2 targets (A and B), the LCA is root.
+7. if find only one of 2 targets, just return it.
+8. didn't find one of 2 targets, return false and null.

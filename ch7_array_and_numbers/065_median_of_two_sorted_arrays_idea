@@ -1,0 +1,3 @@
+1. The main idea noted in evernote.
+2. If the total number is even, the median is [ (k/2)th + (k/2 + 1)th ] / 2.0. The "2.0" is for decimal.
+3. In findKth, here use indexA & indexB to trace the current position of A & B. Then we use moving index(pointer) to remove elements.

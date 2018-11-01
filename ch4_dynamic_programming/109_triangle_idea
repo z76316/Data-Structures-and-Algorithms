@@ -1,0 +1,4 @@
+1. It's top-down.
+2. In triangle, the "initialization" part are the two boundary lines.
+3. The first number of i &amp; j in "function" part should be careful.
+4. The answer is the minimum f[n-1][i] in the last level. 

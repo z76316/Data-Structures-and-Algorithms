@@ -1,0 +1,1 @@
+1. Store "target - nums[i], i" into hashmap when map.get(nums[i]) is null. Or you just find the answer.

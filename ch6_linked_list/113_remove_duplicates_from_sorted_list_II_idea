@@ -1,0 +1,3 @@
+1. prev = curr -> just changed prev's reference, it didn't change anything inside the prev.
+2. dummy.next = head -> changed dummy's pointer to aim at head.
+3. For this problem, we use prev.next = curr.next to let prev's pointer jump over curr and aim at curr.next. It means we delete(skip) node curr.

@@ -1,0 +1,3 @@
+1. use traversal is best way to solve this problem. It's rare.
+2. what shuld we do is just let the every last node's value smaller than after.
+3. but don't forget the case root is -2^31. In this case, the root will even with Integer.MIN_VALUE than return false. So, just like we do in 3rd if case, skip the comparison between firstnode and Integer.MIN_VALUE.

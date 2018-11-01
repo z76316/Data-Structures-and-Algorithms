@@ -1,0 +1,6 @@
+1. the concept is build a queue to store every level's node when we just get into a level.
+2. queue.offer(the root of tree) before we get into while-loop.
+3. then build a list to store those nodes' value in this level.
+4. run a for-loop(size = queue.size()) to queue.poll() every node in queue.
+5. if the node.left != null, queue.offer(the node). so does node.right.
+6. add the list of one level into result.

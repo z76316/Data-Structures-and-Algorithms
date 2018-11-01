@@ -1,0 +1,2 @@
+1. create a class "ResultType" to store both "boolean isBalanced" & "int depth".
+2. create a private function "helper" to run and return ResultType.

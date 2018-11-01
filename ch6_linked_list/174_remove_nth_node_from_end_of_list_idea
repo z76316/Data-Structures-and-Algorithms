@@ -1,0 +1,4 @@
+1. using fast-slow pointers
+2. let head pointer go n step first, then tail pointer departure.
+3. when head == null, tail is on the prev node of nth node from end.
+4. tail.next = tail.next.next -> delete the node between tail and tail.next.next

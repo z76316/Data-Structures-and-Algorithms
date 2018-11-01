@@ -1,0 +1,5 @@
+There are 3 cases:
+	1. nums[i] == 0: swap nums[left] and nums[i], then nums[left] == 0 for sure. So just move left to left++ and i also move to next position, i to i++.
+	2. nums[i] == 1: just move i to i++.
+	3. nums[i] == 2; swap nums[right] and nums[i], then nums[right] == 2 for sure. So
+just move right to right--.

@@ -1,0 +1,2 @@
+1. It's the "feasibility" type of DP.
+2. The idea is when these is a reachable point "j" we can leave from it to get to current point "i", the "i" is reachable.

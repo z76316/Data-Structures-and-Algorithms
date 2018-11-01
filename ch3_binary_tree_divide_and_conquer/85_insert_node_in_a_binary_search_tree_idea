@@ -1,0 +1,2 @@
+1. the place we can insert node is at "null".
+2. when the fuction finished, we have to return the sub-tree's root. 

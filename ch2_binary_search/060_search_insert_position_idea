@@ -1,0 +1,2 @@
+1.input為null或空時，return第個位置0。
+2.若最後start或end都不比target大或等於時，要return end + 1。

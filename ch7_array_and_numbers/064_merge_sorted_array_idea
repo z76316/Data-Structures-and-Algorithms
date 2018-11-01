@@ -1,0 +1,1 @@
+To avoid moving all the elements in A, start from finding the biggest element in A and B then move it to the A’s last space and so on.

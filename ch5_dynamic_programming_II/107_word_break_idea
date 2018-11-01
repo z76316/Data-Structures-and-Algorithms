@@ -1,0 +1,2 @@
+1. j represent the distance between current word and last word.
+2. To save time, we use j to limit the length we go through not longer than the max length of strings in dict.

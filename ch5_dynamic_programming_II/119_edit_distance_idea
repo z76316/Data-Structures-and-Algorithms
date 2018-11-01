@@ -1,0 +1,2 @@
+1. The target is converting word1 to word2, it means we don't have to do anything on word2.
+2. In the case that current two tail characters is same we don't have to count one step to go to check next character.

@@ -1,0 +1,1 @@
+1. if the characters of T are all picked up by S, it means we can get one subsequence →  f[i][0] = 1;

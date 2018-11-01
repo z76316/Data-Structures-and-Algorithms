@@ -1,0 +1,11 @@
+1. first, find the target node. if the target node is not in the tree, do nothing.
+2. if (root.val > value) root.left = removeNode(root.left, value);
+3. if (root.val < value) root.right = removeNode(root.right, value);
+4. 2&3 means go into left or right sub-tree.
+5. after find out the target node, we have 4 case to solve:
+	1. left sub-tree is null
+	2. right sub-tree is null
+	3. both left & right sub-tree is null
+	4. both left & right sub-tree is not null
+	★ 1, 2 & 3 can be solved in two if case.
+6. build a findNode fuction using while-loop to find the minimum node of right sub-tree.

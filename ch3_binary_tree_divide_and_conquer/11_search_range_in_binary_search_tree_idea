@@ -1,0 +1,2 @@
+1. use traversal.
+2. because line 29 have to run before line 30,  it'll go to k1 first then go up to k2 in ascending order.

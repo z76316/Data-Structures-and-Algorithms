@@ -1,0 +1,4 @@
+There are 3 algrithoms can solve it:
+	1. sort & merge, O(nlogn + mlogm)
+	2. hashmap,O(n) space + O(n +m) time
+	3. sort & binary search, O(nlogn + mlogm)

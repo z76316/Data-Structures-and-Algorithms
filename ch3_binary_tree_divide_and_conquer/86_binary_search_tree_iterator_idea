@@ -1,0 +1,10 @@
+1. I guess this problem should be memorized.
+2. First of all, declare a stack.
+3. To initialize "BSTIterator", just find the smallest node in the BST(the leftmost one).
+4. "hasNext" is simple.
+5. "next":
+	1. Declare a node &amp; a current pointer.
+	2. node = stack.pop(), cur = node.
+	3. The key point is if there is cur.right != null or not. if there is a node, we should push it into stack.
+	4. Then traverse the left node of cur.right first. If there is no left node, break.
+	5. Following from 3.. If cur.right == null, just return the node we pop from stack.

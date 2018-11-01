@@ -1,0 +1,3 @@
+1. creating two list to link with the nodes less than x and greater than x respectively.
+2. then creating two dummy nodes first, let them be two pointers' reference respectively.
+3. remember to link right pointer to null, it's the end

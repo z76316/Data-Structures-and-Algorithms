@@ -1,0 +1,1 @@
+1. Because whether the current A.chartAt is same as B.charAt or not, "f[j][i] = Math.max(f[j-1][i], f[j][i-1])" always have to confirm. Therefore, we can just judge it first in any way.

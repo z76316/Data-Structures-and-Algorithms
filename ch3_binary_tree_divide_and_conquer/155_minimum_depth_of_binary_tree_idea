@@ -1,0 +1,5 @@
+there are 4 cases:
+1. leaf
+2. root.left == null && root.right != null
+3. root.left != null && root.right == null
+4. else
