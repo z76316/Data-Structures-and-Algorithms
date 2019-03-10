@@ -1,4 +1,4 @@
 1. Using fast-slow pointers to let fast and slow pointers meet each other
 2. Then let head and slow pointer go step by step
 3. When head == slow.next, return head
-4. just memorize it, only nobody can come up with this.5
+4. just memorize it, only nobody can come up with this
