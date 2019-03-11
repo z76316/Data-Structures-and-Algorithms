@@ -1,2 +1,11 @@
-1. Using Priority Queue to let those sorted lists to be stored in the queue in order.
-2. Must be skilled about using PriorityQueue and creating Comparator.
+Merge sort (divide and conquer):
+    1. Find mid of lists. mid = len(lists) // 2
+    2. Divide and conquer. left = self.mergeKLists(lists[:mid]), right = self.mergeKLists(lists[mid:])
+    3. return merge(left, right)
+    4. Merge is basic
+    
+Heap
+    1. Don't forget "from heapq import heappush, heappop"
+    2. Run a for loop to heappush(heap, (lists[i].val, i, lists[i]))
+    3. The reason to store i into tuple is for comparison of heap between two equal val node
+    4. While heap is not empty, keep run the while loop to heappop, heappush the minimum node and go to the next node
