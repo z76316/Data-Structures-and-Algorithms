@@ -1,2 +1,6 @@
-1. In fact, I still cannot figure out this problem. 
-2. Must solve it in the future.
+1. Create all empty new nodes and store them in a hashmap (dict). 
+2. newNodeDict[pointer] = RandomListNode(pointer.label)
+3. Run a for loop to set next and random of all new nodes.
+4. if node.next -> newNodeDict[node].next = newNodeDict[node.next]
+5. if node.random -> newNodeDict[node].random = newNodeDict[node.random]
+6. return newNodeDict[head]
