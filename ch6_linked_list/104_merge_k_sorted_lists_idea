@@ -4,8 +4,14 @@ Merge sort (divide and conquer):
     3. return merge(left, right)
     4. Merge is basic
     
-Heap
+Heap:
     1. Don't forget "from heapq import heappush, heappop"
     2. Run a for loop to heappush(heap, (lists[i].val, i, lists[i]))
     3. The reason to store i into tuple is for comparison of heap between two equal val node
     4. While heap is not empty, keep run the while loop to heappop, heappush the minimum node and go to the next node
+    
+Merge two by two:
+    1. Check the len(lists) in every while loop and stop when it becomes 1
+    2. The step of for loop is 2
+    3. Break the for loop if i + 1 >= len(lists)
+    4. Check is len(lists) % 2 == 1 to append the last one into temp_lists
